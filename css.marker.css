@@ -42,3 +42,29 @@ span.geolive-bar-marker.visible.a {
     right: -10px;
     background-size: 100%;
 }
+
+
+div.l-colr>span {
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    display: inline-block;
+    margin-right: 5px;
+    margin-left: 54px;
+}
+
+div.l-colr>span.colr0 {
+    background-color: rgb(254,255,169);
+}
+div.l-colr>span.colr1 {
+    background-color: rgb(243, 224, 140);
+}
+div.l-colr>span.colr2 {
+    background-color: rgb(230,195,112);
+}
+div.l-colr>span.colr3 {
+    background-color: rgb(182,139,93);
+}
+div.l-colr>span.colr4 {
+    background-color: rgb(133,82,78);
+}
