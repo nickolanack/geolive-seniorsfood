@@ -1,0 +1,44 @@
+.tileButtonContainer {
+    background-size: 0;
+    background-color: rgb(0,160,80);
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+    border-radius: 2px;
+}
+
+.tileButtonContainer:hover, .tileButtonContainer.hover {
+	 box-shadow: 0 0 7px rgba(0,0,0,0.5);
+          background-color: rgb(0,150,75);
+}
+
+.icn-s-lst li:hover::before, .icn-s-lst li.selected::before {
+    background-color: rgb(0,160,80);
+}
+.label.top-left {
+    text-align: left;
+    display: block;
+    color: teal;
+    font-size: 15px;
+}
+
+.upload-btns span.audio, .upload-btns span.video, .upload-btns span.document, .upload-btns span.image {
+    padding: 10px;
+    border-radius: 100%;
+}
+
+.geolive_window_title_content>*, .geolive_window_menu .iMenu li.iTitle {
+    color: teal;
+}
+
+.Attribute_Item.keywords>.TextAttribute_Title {
+    color: teal;
+    font-weight: normal;
+}
+
+span.geolive-bar-marker.visible {
+    display: none;
+}
+span.geolive-bar-marker.visible.a {
+    display: inline-block;
+    right: -10px;
+    background-size: 100%;
+}
