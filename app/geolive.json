@@ -1,0 +1,1029 @@
+{
+    "plugin.1": {
+        "name": "Data Types",
+        "instance": "Data",
+        "parameters": {}
+    },
+    "plugin.2": {
+        "name": "Data Types",
+        "instance": "Data",
+        "parameters": {}
+    },
+    "plugin.3": {
+        "name": "External Content",
+        "instance": "ExternalContent",
+        "parameters": {}
+    },
+    "plugin.4": {
+        "name": "Filesystem",
+        "instance": "Filesystem",
+        "parameters": {}
+    },
+    "plugin.5": {
+        "name": "Google Maps",
+        "instance": "GoogleMaps",
+        "parameters": {}
+    },
+    "plugin.6": {
+        "name": "Maps",
+        "instance": "Maps",
+        "parameters": {}
+    },
+    "plugin.7": {
+        "name": "System Parameters",
+        "instance": "SystemParameters",
+        "parameters": {
+            "JSFileObfuscationEnabled": false,
+            "JSInlineObfuscationEnabled": false,
+            "CSSFileObfuscationEnabled": false,
+            "CSSInlineObfuscationEnabled": false,
+            "PHPDebugEnabled": true,
+            "JSDebugEnabled": true,
+            "CachingEnabled": false,
+            "PrettyPrintJson": true,
+            "JSCacheObfuscationEnabled": false,
+            "phase": "production",
+            "ExternalizeWidgetScripts": true
+        }
+    },
+    "plugin.8": {
+        "name": "Users",
+        "instance": "Users",
+        "parameters": {}
+    },
+    "plugin.14": {
+        "name": "Upgrade",
+        "instance": "Upgrade",
+        "parameters": {
+            "releaseServer": "https:\/\/release.geolive.ca",
+            "releasePackage": "master",
+            "autoUpdate": false
+        }
+    },
+    "plugin.10": {
+        "name": "Attributes",
+        "instance": "Attributes",
+        "parameters": {},
+        "attributes": "plugin.Attributes.10.attributes.json"
+    },
+    "plugin.11": {
+        "name": "Integration Testing",
+        "instance": "UnitTest",
+        "parameters": {}
+    },
+    "plugin.12": {
+        "name": "User Interface",
+        "instance": "UserInterface",
+        "parameters": {}
+    },
+    "plugin.13": {
+        "name": "Activity Monitor",
+        "instance": "ActivityMonitor",
+        "parameters": {}
+    },
+    "plugin.15": {
+        "name": "Timeline",
+        "instance": "Timeline",
+        "parameters": {}
+    },
+    "plugin.16": {
+        "name": "Pusher Message Server",
+        "instance": "PusherMessages",
+        "parameters": "_PusherMessages.json"
+    },
+    "plugin.17": {
+        "name": "Deploy",
+        "instance": "Deploy",
+        "parameters": "_Deploy.json"
+    },
+    "plugin.18": {
+        "name": "Email",
+        "instance": "Email",
+        "parameters": {}
+    },
+    "plugin.19": {
+        "name": "Events",
+        "instance": "Events",
+        "parameters": {}
+    },
+    "plugin.20": {
+        "name": "Language",
+        "instance": "Language",
+        "parameters": {}
+    },
+    "plugin.21": {
+        "name": "Search Plugin",
+        "instance": "Search",
+        "parameters": {}
+    },
+    "widget.32": {
+        "name": "Map Layers Widget",
+        "instance": "Layers",
+        "parameters": {}
+    },
+    "widget.33": {
+        "name": "Search Engine Optimization Helper",
+        "instance": "SearchEngineOptimizationHelper",
+        "parameters": {}
+    },
+    "widget.34": {
+        "name": "No Javascript Helper",
+        "instance": "NoJavascriptHelper",
+        "parameters": {}
+    },
+    "widget.35": {
+        "name": "Login Behavior",
+        "instance": "LoginWizard",
+        "parameters": {}
+    },
+    "widget.36": {
+        "name": "Session Behavior",
+        "instance": "Session",
+        "parameters": {}
+    },
+    "widget.37": {
+        "name": "Map Layers Widget",
+        "instance": "Layers",
+        "parameters": {}
+    },
+    "widget.38": {
+        "name": "Search Engine Optimization Helper",
+        "instance": "SearchEngineOptimizationHelper",
+        "parameters": {}
+    },
+    "widget.39": {
+        "name": "No Javascript Helper",
+        "instance": "NoJavascriptHelper",
+        "parameters": {}
+    },
+    "widget.40": {
+        "name": "Login Behavior",
+        "instance": "LoginWizard",
+        "parameters": {}
+    },
+    "widget.41": {
+        "name": "Session Behavior",
+        "instance": "Session",
+        "parameters": {}
+    },
+    "widget.42": {
+        "name": "Google Controls",
+        "instance": "GoogleControl",
+        "parameters": {}
+    },
+    "widget.43": {
+        "name": "Tile Buttons",
+        "instance": "TileButtons",
+        "parameters": {}
+    },
+    "widget.46": {
+        "name": "Url Variables Parser",
+        "instance": "UrlVariablesBehavior",
+        "parameters": {}
+    },
+    "widget.26": {
+        "name": "Attr Search Bar",
+        "instance": "AttributesSearch",
+        "parameters": {
+            "position": "TOP_CENTER",
+            "barWidth": 660,
+            "locationSearch": true,
+            "showFilterBuilder": true,
+            "hoverTheme": false,
+            "themeLabel": "Theme",
+            "showCloud": true,
+            "cloudTable": "",
+            "cloudField": "",
+            "mapitemSearchLabel": "Placemarks",
+            "locationSearchLabel": "Locations",
+            "showDemoTags": false,
+            "demoTagsMinimum": 10,
+            "cloudResults": 30,
+            "searchColor": "rgb(0, 160, 80)",
+            "searchTintColor": "rgb(0,0,0)",
+            "clearColor": "rgb(255, 255, 255)",
+            "clearTintColor": "rgb(0,0,0)",
+            "placeholderText": "Search Location, Items, Attributes...",
+            "searchUsers": false,
+            "widgetTitle": "",
+            "readAccess": "public"
+        }
+    },
+    "widget.27": {
+        "name": "Flexible Height Widget",
+        "instance": "FlexibleHeight",
+        "parameters": {
+            "offset": 200,
+            "customScript": "",
+            "widgetTitle": "",
+            "readAccess": "public"
+        }
+    },
+    "widget.29": {
+        "name": "Tile Buttons",
+        "instance": "TileButtons",
+        "parameters": {
+            "sections": [
+                "fullscreen",
+                "home",
+                "login",
+                "logout"
+            ],
+            "controlColor": "rgb(255, 255, 255)",
+            "discussionTag": false,
+            "iconSetReferenceName": "",
+            "markerSearch": true,
+            "tileIcon": [],
+            "groupIcon": [],
+            "position": "RIGHT_CENTER",
+            "offsetX": 100,
+            "offsetY": 100,
+            "tilePadding": 0,
+            "direction": "auto",
+            "markerSize": 32,
+            "tileSize": 50,
+            "showToolTips": false,
+            "fullscreenTip": false,
+            "homeTip": false,
+            "markerTip": false,
+            "loginTip": false,
+            "logoutTip": false,
+            "profileTip": false,
+            "markerIconset": [],
+            "layerMap": [],
+            "tipMap": [],
+            "filterLayerMappedIcons": true,
+            "iconsetMetadata": [],
+            "widgetTitle": "",
+            "readAccess": "public"
+        }
+    },
+    "widget.30": {
+        "name": "Custom CSS",
+        "instance": "CSS",
+        "parameters": {
+            "customCSS": "widget.CSS.30.customCSS.css",
+            "widgetTitle": "",
+            "readAccess": "public"
+        }
+    },
+    "widget.31": {
+        "name": "Custom Behavior Script",
+        "instance": "CustomBehaviorScript",
+        "parameters": {
+            "customScript": "widget.CustomBehaviorScript.31.customScript.js",
+            "widgetTitle": "clusters",
+            "readAccess": "public"
+        }
+    },
+    "widget.10": {
+        "name": "Google Controls",
+        "instance": "GoogleControl",
+        "parameters": {
+            "showStreetControl": true,
+            "streetControlPosition": "LEFT_TOP",
+            "showPanControl": true,
+            "panControlPosition": "LEFT_TOP",
+            "showZoomControl": true,
+            "zoomControl": "SMALL",
+            "zoomControlPosition": "LEFT_TOP",
+            "showMapTypeControl": true,
+            "mapType": "HORIZONTAL_BAR",
+            "mapTypePosition": "TOP_RIGHT",
+            "showMapScaleControl": true,
+            "mapScaleType": "DEFAULT",
+            "mapScalePosition": "BOTTOM_RIGHT",
+            "showMapOverviewControl": false,
+            "mapOverviewControlOpened": false,
+            "widgetTitle": "",
+            "readAccess": "public"
+        }
+    },
+    "widget.11": {
+        "name": "Tile Buttons",
+        "instance": "TileButtons",
+        "parameters": {
+            "sections": [
+                "fullscreen",
+                "home",
+                "login",
+                "logout"
+            ],
+            "controlColor": "rgb(48,84,107)",
+            "discussionTag": false,
+            "iconSetReferenceName": "",
+            "markerSearch": true,
+            "tileIcon": null,
+            "groupIcon": [],
+            "position": "RIGHT_CENTER",
+            "offsetX": 100,
+            "offsetY": 100,
+            "tilePadding": 0,
+            "direction": "auto",
+            "markerSize": 32,
+            "tileSize": 50,
+            "showToolTips": false,
+            "fullscreenTip": false,
+            "homeTip": false,
+            "markerTip": false,
+            "loginTip": false,
+            "logoutTip": false,
+            "profileTip": false,
+            "profileIcon": null,
+            "markerIconset": [],
+            "layerMap": [],
+            "tipMap": [],
+            "filterLayerMappedIcons": true,
+            "iconsetMetadata": [],
+            "_raw_layerMap": null,
+            "_raw_tipMap": null,
+            "widgetTitle": "",
+            "readAccess": "public"
+        }
+    },
+    "widget.25": {
+        "name": "Tile Buttons",
+        "instance": "TileButtons",
+        "parameters": {
+            "sections": [
+                "iconset"
+            ],
+            "controlColor": "rgb(48,84,107)",
+            "discussionTag": false,
+            "iconSetReferenceName": "",
+            "markerSearch": true,
+            "tileIcon": [],
+            "groupIcon": [
+                "components\/com_geolive\/users_files\/user_files_982\/Uploads\/[G]_M1B_99_[ImAgE]_XlM.png"
+            ],
+            "position": "RIGHT_TOP",
+            "offsetX": 100,
+            "offsetY": 100,
+            "tilePadding": 0,
+            "direction": "auto",
+            "markerSize": 32,
+            "tileSize": 50,
+            "showToolTips": false,
+            "fullscreenTip": false,
+            "homeTip": false,
+            "markerTip": false,
+            "loginTip": false,
+            "logoutTip": false,
+            "profileTip": false,
+            "markerIconset": [
+                "components\/com_geolive\/users_files\/user_files_982\/Uploads\/3y3_8G9_[G]_[ImAgE]_wHJ.png",
+                "components\/com_geolive\/users_files\/user_files_982\/Uploads\/[G]_zQ2_wtl_h2D_[ImAgE].png",
+                "components\/com_geolive\/users_files\/user_files_982\/Uploads\/suj_[ImAgE]_oJx_[G]_rQ.png",
+                "components\/com_geolive\/users_files\/user_files_982\/Uploads\/rO2_re1_6fd_[G]_[ImAgE].png"
+            ],
+            "layerMap": [],
+            "tipMap": [],
+            "filterLayerMappedIcons": true,
+            "iconsetMetadata": {
+                "layerMap": {
+                    "components\/com_geolive\/users_files\/user_files_982\/Uploads\/3y3_8G9_[G]_[ImAgE]_wHJ.png": 7,
+                    "components\/com_geolive\/users_files\/user_files_982\/Uploads\/[G]_zQ2_wtl_h2D_[ImAgE].png": 8,
+                    "components\/com_geolive\/users_files\/user_files_982\/Uploads\/suj_[ImAgE]_oJx_[G]_rQ.png": 6,
+                    "components\/com_geolive\/users_files\/user_files_982\/Uploads\/rO2_re1_6fd_[G]_[ImAgE].png": 9
+                },
+                "renderSettings": {
+                    "components\/com_geolive\/users_files\/user_files_982\/Uploads\/3y3_8G9_[G]_[ImAgE]_wHJ.png": {
+                        "anchor": [
+                            "3.1%",
+                            "94.9%"
+                        ]
+                    },
+                    "components\/com_geolive\/users_files\/user_files_982\/Uploads\/[G]_zQ2_wtl_h2D_[ImAgE].png": {
+                        "anchor": [
+                            "3.1%",
+                            "94.9%"
+                        ]
+                    },
+                    "components\/com_geolive\/users_files\/user_files_982\/Uploads\/suj_[ImAgE]_oJx_[G]_rQ.png": {
+                        "anchor": [
+                            "50.0%",
+                            "100.0%"
+                        ]
+                    },
+                    "components\/com_geolive\/users_files\/user_files_982\/Uploads\/rO2_re1_6fd_[G]_[ImAgE].png": {
+                        "anchor": [
+                            "3.1%",
+                            "96.6%"
+                        ]
+                    }
+                }
+            },
+            "widgetTitle": "",
+            "readAccess": "public",
+            "guestLoginDrag": true,
+            "onDragEndScript": "widget.TileButtons.25.onDragEndScript.js",
+            "subControlColor": "rgb(100, 149, 237)",
+            "useTipIconsetLayerTitle": false,
+            "formatTipScript": "",
+            "profileIcon": null,
+            "_raw_layerMap": null,
+            "_raw_tipMap": null
+        }
+    },
+    "widget.28": {
+        "name": "Attribute Cloud",
+        "instance": "AttributesCloud",
+        "parameters": {
+            "tabLabel": "Keywords",
+            "className": "",
+            "cloudTable": "projectAttributes",
+            "cloudField": "keywords",
+            "showDemoTags": false,
+            "demoTagsMinimum": 10,
+            "cloudResults": 30,
+            "tabColor": "rgb(0, 160, 80)",
+            "fontColor": "rgb(255, 255, 255)",
+            "showItemCount": true,
+            "scaleItemsWithCount": true,
+            "scaleItemsMax": 25,
+            "scaleItemsMin": 12,
+            "hideEmptyPredefinedValues": true,
+            "showValuesOutsidePredefined": true,
+            "cloudMetadata": [],
+            "attributeSelection": [
+                {
+                    "visibility": "public",
+                    "tableId": "1",
+                    "tableName": "projectAttributes",
+                    "tableSuffix": "_1387",
+                    "title": "keywords",
+                    "label": "Keywords",
+                    "description": false,
+                    "fieldType": "text",
+                    "color": "#FFFFFF",
+                    "searchability": "public",
+                    "editability": "registered",
+                    "fieldTextOptions": {
+                        "textType": "input",
+                        "inputOptions": {
+                            "buildAutocomplete": false,
+                            "requireModeration": false,
+                            "limitMaxChars": 0,
+                            "limitMaxWords": 0,
+                            "allowHtml": false,
+                            "allowMedia": true,
+                            "allowLinks": true
+                        },
+                        "listOptions": {
+                            "takeSugesstions": true,
+                            "buildTree": false,
+                            "iconize": false,
+                            "colorize": false
+                        }
+                    },
+                    "allowMultiple": true
+                }
+            ],
+            "widgetTitle": "",
+            "readAccess": "public"
+        }
+    },
+    "widget.22": {
+        "name": "Legend",
+        "instance": "Legend",
+        "parameters": {
+            "position": "LEFT_BOTTOM",
+            "style": "GeoliveLegend.css",
+            "useIconSet": true,
+            "draggableIcons": true,
+            "startMinimized": true,
+            "showToggle": false,
+            "legendParams": [],
+            "editableLayerScript": "return true",
+            "iconSize": 35,
+            "defaultIcon": "DEFAULT",
+            "showEditLayerButtons": true,
+            "widgetTitle": "",
+            "readAccess": "public",
+            "showloginDrag": true,
+            "formatLayerScript": "",
+            "formatLayerPopoverScript": "widget.Legend.22.formatLayerPopoverScript.js",
+            "formatLegendScript": "",
+            "onDragEndScript": "defaultBehaviorFn();",
+            "guestLoginDrag": true
+        }
+    },
+    "widget.18": {
+        "name": "Google Controls",
+        "instance": "GoogleControl",
+        "parameters": {}
+    },
+    "widget.19": {
+        "name": "Info-Window",
+        "instance": "InfoWindowBuilder",
+        "parameters": {
+            "metadata": {
+                "positions": {
+                    "title": {
+                        "modules": [
+                            {
+                                "type": "DefaultTitle",
+                                "config": {
+                                    "className": "",
+                                    "maxChars": 0
+                                }
+                            }
+                        ]
+                    },
+                    "content": {
+                        "modules": [
+                            {
+                                "type": "DefaultDescription",
+                                "config": {
+                                    "className": "",
+                                    "imageWidth": 300,
+                                    "imageHeight": 240,
+                                    "multiImageWidth": 100,
+                                    "multiImageHeight": 75,
+                                    "portraitImageWidth": 75,
+                                    "portraitImageHeight": 100,
+                                    "autoArrange": true,
+                                    "oneLine": true,
+                                    "maxChars": 0,
+                                    "maxWidth": 0,
+                                    "showAudios": true,
+                                    "showVideos": true,
+                                    "showImages": true,
+                                    "showDocuments": true,
+                                    "showLinks": true,
+                                    "showExternalContent": true,
+                                    "embedPortrait": true,
+                                    "preferLocalContent": true,
+                                    "portraitClip": true
+                                }
+                            },
+                            {
+                                "type": "plugin.Attributes.TextAttributes",
+                                "config": {
+                                    "attributeFieldArray": [
+                                        {
+                                            "visibility": "public",
+                                            "tableId": "1",
+                                            "tableName": "projectAttributes",
+                                            "tableSuffix": "_1387",
+                                            "title": "keywords",
+                                            "label": "Keywords",
+                                            "description": false,
+                                            "fieldType": "text",
+                                            "color": "#FFFFFF",
+                                            "searchability": "public",
+                                            "editability": "registered",
+                                            "fieldTextOptions": {
+                                                "textType": "input",
+                                                "inputOptions": {
+                                                    "buildAutocomplete": false,
+                                                    "requireModeration": false,
+                                                    "limitMaxChars": 0,
+                                                    "limitMaxWords": 0,
+                                                    "allowHtml": false,
+                                                    "allowMedia": true,
+                                                    "allowLinks": true
+                                                },
+                                                "listOptions": {
+                                                    "takeSugesstions": true,
+                                                    "buildTree": false,
+                                                    "iconize": false,
+                                                    "colorize": false
+                                                }
+                                            },
+                                            "allowMultiple": true
+                                        }
+                                    ],
+                                    "className": "keywords",
+                                    "maxHeight": 0,
+                                    "maxWidth": 300,
+                                    "showLabels": true,
+                                    "showTitle": false,
+                                    "title": "",
+                                    "formatValueElement": "",
+                                    "formatContainerElement": ""
+                                }
+                            },
+                            {
+                                "type": "plugin.Attributes.TextAttributes",
+                                "config": {
+                                    "attributeFieldArray": [
+                                        {
+                                            "visibility": "public",
+                                            "tableId": "1",
+                                            "tableName": "projectAttributes",
+                                            "tableSuffix": "_1387",
+                                            "title": "url",
+                                            "label": "Website",
+                                            "description": false,
+                                            "fieldType": "text",
+                                            "color": "#FFFFFF",
+                                            "searchability": "public",
+                                            "editability": "registered",
+                                            "fieldTextOptions": {
+                                                "textType": "input",
+                                                "inputOptions": {
+                                                    "buildAutocomplete": false,
+                                                    "requireModeration": false,
+                                                    "limitMaxChars": 0,
+                                                    "limitMaxWords": 0,
+                                                    "allowHtml": false,
+                                                    "allowMedia": true,
+                                                    "allowLinks": true
+                                                },
+                                                "listOptions": {
+                                                    "takeSugesstions": true,
+                                                    "buildTree": false,
+                                                    "iconize": false,
+                                                    "colorize": false
+                                                }
+                                            },
+                                            "allowMultiple": false
+                                        }
+                                    ],
+                                    "className": "",
+                                    "maxHeight": 0,
+                                    "maxWidth": 300,
+                                    "showLabels": true,
+                                    "showTitle": false,
+                                    "title": "",
+                                    "formatValueElement": "",
+                                    "formatContainerElement": ""
+                                }
+                            },
+                            {
+                                "type": "ShareLinks",
+                                "config": {
+                                    "className": "",
+                                    "fbid": "",
+                                    "twitVia": "@geolive_mapping",
+                                    "hashtag": "",
+                                    "siteTitle": "Geolive",
+                                    "siteURL": "www.geolive.ca",
+                                    "siteDescription": "",
+                                    "formatClass": "s-icon"
+                                }
+                            }
+                        ]
+                    },
+                    "footer": {
+                        "modules": [
+                            {
+                                "type": "DefaultEdit",
+                                "config": {
+                                    "className": "",
+                                    "dragConfirmMessage": "save new position",
+                                    "dragConfirm": false,
+                                    "geocodeMove": true,
+                                    "templateName": "MapItemTemplate"
+                                }
+                            }
+                        ]
+                    },
+                    "menu": {
+                        "modules": []
+                    }
+                },
+                "positionList": [
+                    "title",
+                    "content",
+                    "footer",
+                    "menu"
+                ]
+            },
+            "widgetTitle": "",
+            "readAccess": "public",
+            "templateName": "default"
+        }
+    },
+    "widget.20": {
+        "name": "Marker Wizard",
+        "instance": "WizardBuilder",
+        "parameters": {
+            "metadata": {
+                "class": "DescisionNode",
+                "_diagramState": {
+                    "x": -260,
+                    "y": 438
+                },
+                "children": [
+                    {
+                        "class": "Node",
+                        "_diagramState": {
+                            "x": -249,
+                            "y": 500
+                        }
+                    },
+                    {
+                        "title": "New Empty Step",
+                        "class": "AttributesTableNode",
+                        "fields": [
+                            []
+                        ],
+                        "_diagramState": {
+                            "x": -2,
+                            "y": 139
+                        },
+                        "children": [
+                            {
+                                "class": "Node",
+                                "_diagramState": {
+                                    "x": 340,
+                                    "y": 298
+                                }
+                            },
+                            {
+                                "title": "New Empty Step",
+                                "class": "AttributesTableNode",
+                                "fields": [
+                                    []
+                                ],
+                                "_diagramState": {
+                                    "x": 737,
+                                    "y": 182
+                                },
+                                "children": [
+                                    {
+                                        "class": "Node",
+                                        "_diagramState": {
+                                            "x": 959,
+                                            "y": 221
+                                        }
+                                    }
+                                ],
+                                "builderMetadata": {
+                                    "positions": {
+                                        "title": {
+                                            "modules": [
+                                                {
+                                                    "type": "WizardSteps",
+                                                    "config": {
+                                                        "iconValue": [],
+                                                        "className": "",
+                                                        "manualValue": "1",
+                                                        "width": 554,
+                                                        "height": 449,
+                                                        "labelMethod": "auto",
+                                                        "elasticity": false,
+                                                        "minHeight": 200,
+                                                        "minWidth": 400,
+                                                        "showSteps": true
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        "content": {
+                                            "modules": [
+                                                {
+                                                    "type": "WizardTitleField",
+                                                    "config": {
+                                                        "label": "Title",
+                                                        "message": "add a title",
+                                                        "className": "",
+                                                        "maxChars": 0,
+                                                        "textFormatScript": ""
+                                                    }
+                                                },
+                                                {
+                                                    "type": "WizardDescriptionField",
+                                                    "config": {
+                                                        "label": "Description",
+                                                        "message": "add a description",
+                                                        "lines": 6,
+                                                        "mandatory": false,
+                                                        "showAudios": true,
+                                                        "showImages": true,
+                                                        "showDocuments": true,
+                                                        "showVideos": true,
+                                                        "className": "",
+                                                        "maxChars": 0,
+                                                        "showExpandInput": true,
+                                                        "toolbarPosition": "bottom",
+                                                        "textFormatScript": ""
+                                                    }
+                                                },
+                                                {
+                                                    "type": "plugin.Attributes.WizardTagCloud",
+                                                    "config": {
+                                                        "attributeFields": [
+                                                            {
+                                                                "visibility": "public",
+                                                                "tableId": "1",
+                                                                "tableName": "projectAttributes",
+                                                                "tableSuffix": "_1387",
+                                                                "title": "keywords",
+                                                                "label": "Keywords",
+                                                                "description": false,
+                                                                "fieldType": "text",
+                                                                "color": "#FFFFFF",
+                                                                "searchability": "public",
+                                                                "editability": "registered",
+                                                                "fieldTextOptions": {
+                                                                    "textType": "input",
+                                                                    "inputOptions": {
+                                                                        "buildAutocomplete": false,
+                                                                        "requireModeration": false,
+                                                                        "limitMaxChars": 0,
+                                                                        "limitMaxWords": 0,
+                                                                        "allowHtml": false,
+                                                                        "allowMedia": true,
+                                                                        "allowLinks": true
+                                                                    },
+                                                                    "listOptions": {
+                                                                        "takeSugesstions": true,
+                                                                        "buildTree": false,
+                                                                        "iconize": false,
+                                                                        "colorize": false
+                                                                    }
+                                                                },
+                                                                "allowMultiple": true
+                                                            }
+                                                        ],
+                                                        "className": "",
+                                                        "label": "Categories",
+                                                        "showLabel": false,
+                                                        "fontColor": "rgb(0, 0, 0)",
+                                                        "hoverColor": "rgb(143, 188, 143)",
+                                                        "selectedColor": "rgb(143, 188, 143)",
+                                                        "shuffleTags": false,
+                                                        "tags": "[[1,  \"seniors friendly\"], [1, \"seniors discount\"],[1,\"grocery delivery\"]]"
+                                                    }
+                                                },
+                                                {
+                                                    "type": "plugin.Attributes.WizardTextAttribute",
+                                                    "config": {
+                                                        "attributeFields": [
+                                                            {
+                                                                "visibility": "public",
+                                                                "tableId": "1",
+                                                                "tableName": "projectAttributes",
+                                                                "tableSuffix": "_1387",
+                                                                "title": "url",
+                                                                "label": "Website",
+                                                                "description": false,
+                                                                "fieldType": "text",
+                                                                "color": "#FFFFFF",
+                                                                "searchability": "public",
+                                                                "editability": "registered",
+                                                                "fieldTextOptions": {
+                                                                    "textType": "input",
+                                                                    "inputOptions": {
+                                                                        "buildAutocomplete": false,
+                                                                        "requireModeration": false,
+                                                                        "limitMaxChars": 0,
+                                                                        "limitMaxWords": 0,
+                                                                        "allowHtml": false,
+                                                                        "allowMedia": true,
+                                                                        "allowLinks": true
+                                                                    },
+                                                                    "listOptions": {
+                                                                        "takeSugesstions": true,
+                                                                        "buildTree": false,
+                                                                        "iconize": false,
+                                                                        "colorize": false
+                                                                    }
+                                                                },
+                                                                "allowMultiple": false
+                                                            }
+                                                        ],
+                                                        "className": "",
+                                                        "label": "Website",
+                                                        "message": "",
+                                                        "lines": 1,
+                                                        "maxChars": 0,
+                                                        "mandatory": false,
+                                                        "multiEntry": false,
+                                                        "muliTemplate": "lines",
+                                                        "multiMessage": "",
+                                                        "formatter": "none",
+                                                        "iconTint": "rgb(100, 149, 237)"
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        "footer": {
+                                            "modules": [
+                                                {
+                                                    "type": "WizardButtons",
+                                                    "config": {
+                                                        "className": "WizardFooter",
+                                                        "reduceOpacity": false,
+                                                        "onCompleteScript": "defaultBehaviorFn();"
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        "menu": {
+                                            "modules": []
+                                        }
+                                    },
+                                    "positionList": [
+                                        "title",
+                                        "content",
+                                        "footer",
+                                        "menu"
+                                    ]
+                                }
+                            }
+                        ],
+                        "builderMetadata": {
+                            "positions": {
+                                "title": {
+                                    "modules": [
+                                        {
+                                            "type": "WizardSteps",
+                                            "config": {
+                                                "iconValue": [],
+                                                "className": "",
+                                                "manualValue": "1",
+                                                "width": 552,
+                                                "height": 250,
+                                                "labelMethod": "auto",
+                                                "elasticity": false,
+                                                "minHeight": 200,
+                                                "minWidth": 400,
+                                                "showSteps": true
+                                            }
+                                        }
+                                    ]
+                                },
+                                "content": {
+                                    "modules": [
+                                        {
+                                            "type": "WizardStepTitle",
+                                            "config": {
+                                                "className": "",
+                                                "text": "<div class=\"label top-left\" style=\"\n    margin-bottom: 25px;\n\"><span class=\"lbl-txt\" style=\"\n    padding-bottom: 23px;\n\">Select a Placemark type<\/span><\/div>"
+                                            }
+                                        },
+                                        {
+                                            "type": "WizardIconizedLayerSelect",
+                                            "config": {
+                                                "icons": [
+                                                    "components\/com_geolive\/users_files\/user_files_982\/Uploads\/3y3_8G9_[G]_[ImAgE]_wHJ.png",
+                                                    "components\/com_geolive\/users_files\/user_files_982\/Uploads\/[G]_zQ2_wtl_h2D_[ImAgE].png",
+                                                    "components\/com_geolive\/users_files\/user_files_982\/Uploads\/rO2_re1_6fd_[G]_[ImAgE].png",
+                                                    "components\/com_geolive\/users_files\/user_files_982\/Uploads\/suj_[ImAgE]_oJx_[G]_rQ.png"
+                                                ],
+                                                "iconsetMetadata": {
+                                                    "layerMap": {
+                                                        "components\/com_geolive\/users_files\/user_files_982\/Uploads\/3y3_8G9_[G]_[ImAgE]_wHJ.png": 7,
+                                                        "components\/com_geolive\/users_files\/user_files_982\/Uploads\/[G]_zQ2_wtl_h2D_[ImAgE].png": 8,
+                                                        "components\/com_geolive\/users_files\/user_files_982\/Uploads\/rO2_re1_6fd_[G]_[ImAgE].png": 9,
+                                                        "components\/com_geolive\/users_files\/user_files_982\/Uploads\/suj_[ImAgE]_oJx_[G]_rQ.png": 6
+                                                    },
+                                                    "renderSettings": []
+                                                },
+                                                "formatIconScript": "widget.WizardBuilder.20.metadata.children.1.builderMetadata.positions.content.modules.1.config.formatIconScript.js"
+                                            }
+                                        }
+                                    ]
+                                },
+                                "footer": {
+                                    "modules": [
+                                        {
+                                            "type": "WizardButtons",
+                                            "config": {
+                                                "className": "WizardFooter",
+                                                "reduceOpacity": false,
+                                                "onCompleteScript": "defaultBehaviorFn();"
+                                            }
+                                        }
+                                    ]
+                                },
+                                "menu": {
+                                    "modules": []
+                                }
+                            },
+                            "positionList": [
+                                "title",
+                                "content",
+                                "footer",
+                                "menu"
+                            ]
+                        }
+                    }
+                ]
+            },
+            "onCreateScript": "",
+            "onUpdateScript": "",
+            "onSaveScript": "",
+            "widgetTitle": "",
+            "readAccess": "public",
+            "beforeSubmitScript": "",
+            "templateName": "MapItemTemplate"
+        }
+    },
+    "widget.44": {
+        "name": "Attribute Search Drop",
+        "instance": "AttributesSearchDropMarker",
+        "parameters": {
+            "showAllIcons": true,
+            "guestLoginDrop": true,
+            "onDropScript": "defaultBehaviorFn();",
+            "widgetTitle": "",
+            "readAccess": "public",
+            "position": "RIGHT_CENTER"
+        }
+    }
+}
